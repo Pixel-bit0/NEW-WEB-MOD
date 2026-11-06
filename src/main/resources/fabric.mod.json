@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "webscreen",
+  "version": "${version}",
+  "name": "Web Screen",
+  "description": "A placeable block that shows any website on a resizable screen, powered by Chromium (MCEF).",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.webscreen.WebScreenMod"],
+    "client": ["com.webscreen.client.WebScreenClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "mcef": "*"
+  }
+}
